@@ -31,7 +31,7 @@ var db *DocumentClient
 
 var lock = &sync.Mutex{}
 
-func GetDB(table string, opt Options) *DocumentClient {
+func NewClient(table string, opt Options) *DocumentClient {
 	lock.Lock()
 	defer lock.Unlock()
 

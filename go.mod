@@ -1,4 +1,4 @@
-module dynamo-document-client
+module github.com/dd1337/go-dynamo-document-client
 
 go 1.16
 
